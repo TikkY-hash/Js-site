@@ -54,3 +54,13 @@
 .active {
     opacity: 1;
 }
+
+.slider__style {
+    display: flex;
+    transition: 0.5s all;
+}
+
+.visibility {
+    overflow: hidden;
+}
+
