@@ -15,11 +15,22 @@
     "url": "https://github.com/TikkY-hash/Js-site/issues"
   },
   "homepage": "https://github.com/TikkY-hash/Js-site#readme",
+  "browserslist": [
+    "> 1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.3",
     "json-server": "^0.16.3",
     "webpack": "^5.18.0",
     "webpack-cli": "^4.4.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1"
+  },
   "description": ""
 }

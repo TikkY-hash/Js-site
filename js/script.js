@@ -1,5 +1,6 @@
 'use strict';
 
+
 import arrowUp from './Modules/arrow';
 import calc from './Modules/calculator';
 import card from './Modules/cards';
@@ -9,6 +10,7 @@ import modal from './Modules/modal';
 import slider from './Modules/slider';
 import tabs from './Modules/tabs';
 import timer from './Modules/timer';
+
 
 
 document.addEventListener('DOMContentLoaded', () => {
